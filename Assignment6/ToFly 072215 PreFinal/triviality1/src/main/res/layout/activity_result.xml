@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="538dp"
+            android:layout_height="100dp"
+            android:numStars="10"
+            android:rating="0.0"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:stepSize="1.0"
+            android:layout_gravity="top|center_horizontal"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.19"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Who invented the first successful airplane? \n Answer: Wilbur and Orville Wright
+            \nBy studiously observing birds in flight, the Wright brothers tested their newly discovered concept using kites, and then later built their first glider and airplane. Known as the Wright Flyer I, the aircraft was described as the first powered, heavier-than-air machine to achieve controlled, sustained flight with a pilot abroad."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="When was the first successful plane invented? \n Answer: 1903
+            \n On December 17, 1903, Orville Wright piloted the first powered airplane 20 feet above a beach in Kitty Hawk, North Carolina. The flight lasted 12 seconds and covered 120 feet. Three more flights were made that day with Orville's brother Wilbur piloting the record flight lasting 59 seconds over a distance of 852 feet."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Who built the first glider in 1799? \n Answer: George Cayley
+            \nIn 1799, George Cayley developed the concept of the modern airplane as a fixed-wing flying machine with separate systems for lift, propulsion, and control. Referred to as the Father of Aviation, he discovered and identified the four aerodynamics of flight (which act on any flying vehicle): weight, lift, drag. and thrust."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Which country invented the kite? \n Answer: China
+            \n Kites were invented in China where materials ideal for kite building were readily available. The kite has been claimed as the invention of the 5th Century BC Chinese philosophers Mo Zi and Lu Ban and was used for military, scientific, and radio purposes."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Airplanes were used during World War I for _________ \n Answer: Fighting
+            \n World War I was the first time that aircrafts were used on a large scale. Pilots and engineers learned from experience, leading to the development of specialized planes, such as fighters, bombers, and ground-attack aeroplanes."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer6"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Which of the following is NOT an aerodynamic force? \n Answer: Pressure
+            \n The four forces that affect things that fly are weight, lift, thrust, and drag. Weight is the force of gravity; lift is the force that acts at a right angle to the direction of motion through the air; thrust is the force that propels a plane in the direction of motion; drag is the force that acts opposite to the direction of motion."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer7"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Which of the following is NOT an aerodynamic force? \n Answer: Pressure
+            \n The four forces that affect things that fly are weight, lift, thrust, and drag. Weight is the force of gravity; lift is the force that acts at a right angle to the direction of motion through the air; thrust is the force that propels a plane in the direction of motion; drag is the force that acts opposite to the direction of motion."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/answer8"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Which principle explains how an airplane flies? \n Answer: Bernoulli's Principle
+            \n The Bernoulli Equation can be considered to be a statement of the Conservation of Energy Principle: areas with a decreased internal pressure will have increased velocity."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer9"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Who was the first person to fly solo across the Atlantic Ocean? \n Answer: Charles Lindbergh
+            \n Charles Lindberg landed his Spirit of St. Louis near Paris n May 21, 1927, just 10 days after the first ever solo trans-Atlantic flight."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer10"
+            android:layout_width="600dp"
+            android:layout_height="259dp"
+            android:text="Commercial planes began flying _________ \n Answer: After World War I
+            \n The use of fighting aircrafts in World War I paved the way for the development of commercial airplanes. On January 1, 1914, the St. Petersburg-Tampa Airboat Line became the world's first scheduled passenger airline service."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+</ScrollView>
