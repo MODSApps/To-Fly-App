@@ -1,4 +1,4 @@
-NOTE:
+<b>NOTE:</b>
 
 The "apk" folder needs to be copied to the directory: 'ToFly 072215 PreFinal\app\build\outputs'
 
