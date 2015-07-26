@@ -1,6 +1,6 @@
 <b>NOTE:
 
-The "apk" folder needs to be copied to the directory: 'ToFly 072415 Final(2)\app\build\outputs'.
+The "apk" folder needs to be copied to the directory: 'ToFly 072415 Final(2)\app\build\outputs'
 
 The "resources" folder needs to be copied to the directory: 'ToFly 072415 Final(2)\app\build\intermediates'
 
